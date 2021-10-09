@@ -1,8 +1,5 @@
 # HypofriendApi
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/hypofriend_api`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Hypofriend Offers endpoint Consumer
 
 ## Installation
 
@@ -22,7 +19,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This gem allows  to easily make use of Hypofriend's offer API endpoint. 
 
 ## Development
 
