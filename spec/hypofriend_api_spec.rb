@@ -1,4 +1,9 @@
 require 'hypofriend_api'
+require 'hypofriend_api/objects/base'
+require 'hypofriend_api/modulobjects/offer'
+require 'rack'  
+
+
 describe HypofriendOffer do
     before :all do
       @dummy_offer = HypofriendOffer.new({
