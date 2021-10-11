@@ -24,15 +24,16 @@ And then execute:
 
 ```ruby
 
-	result = HypofriendOffer.new(
+	result = HypofriendOffer.new({
         loan_amount: 35000,
          property_value: 35000,
         repayment: 1.0,
-        years_fixed: 1
+        years_fixed: 15
+    }
 		)
 
 ```
-NOTE: This returns a list of available financial institutions and their burrowing  rate.
+NOTE: This returns a list of available finaclencial institutions and their burrowing  rate.
 
 It throws a `HypofriendSaerverError` when either of the queries  are invalid or connection cannot be establish with the the Hypofriend api server.
 ```'
