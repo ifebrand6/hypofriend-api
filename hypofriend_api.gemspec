@@ -6,12 +6,11 @@ Gem::Specification.new do |spec|
   spec.version       = HypofriendApi::VERSION
   spec.authors       = ["Udeogu Ifechukwu"]
   spec.email         = ["ifebrand6@gmail.com"]
-
   spec.summary       = "Hypofriend Offers endpoint Consumer"
   spec.description   = "This gem allows  to easily make use of Hypofriendoffer endpoints "
   spec.homepage      = "https://github.com/ifebrand6/hypofriend-api"
   spec.license       = "MIT"
-  spec.required_ruby_version = ">= 2.4.0"
+  spec.required_ruby_version = ">= 2.5.0"
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to 'https://mygemserver.com'"
 
@@ -30,9 +29,7 @@ Gem::Specification.new do |spec|
 
   # development dependency
   spec.add_development_dependency "bundler", "~> 2.2"
-  spec.add_development_dependency "rspec", "~> 3.2"
-  spec.add_development_dependency 'rspec', '~> 3.0'
-
+ 
   # Runtime dependencies
   spec.add_runtime_dependency 'rest-client', '~> 2.0'
 
