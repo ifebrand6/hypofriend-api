@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require_relative "lib/hypofriend_api/version"
 
 Gem::Specification.new do |spec|
@@ -29,8 +30,10 @@ Gem::Specification.new do |spec|
 
   # development dependency
   spec.add_development_dependency "bundler", "~> 2.2"
+  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency 'rspec', '~> 3.0'
  
   # Runtime dependencies
-  spec.add_runtime_dependency 'rest-client', '~> 2.0'
+  spec.add_runtime_dependency "rest-client", "~> 2.0"
 
 end
