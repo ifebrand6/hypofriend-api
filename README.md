@@ -38,13 +38,4 @@ Or install it yourself as:
 NOTE: This returns a list of available finicial institutions and their burrowing  rate.
 
 It throws a `HypofriendSaerverError` when either of the queries  are invalid or connection cannot be establish with the the Hypofriend api server.
-```
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/ifebrand6/hypofriend-api. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+```'
