@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 require_relative "hypofriend_api/version"
-require "hypofriend_api/objects/base"
-require "hypofriend_api/objects/offer"
+require "hypofriend_api/objects/base_object"
+require "hypofriend_api/objects/hypofriend_offer"
 
 module HypofriendApi
   class Error < StandardError; end

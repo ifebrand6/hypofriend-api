@@ -9,14 +9,4 @@ class HypofriendOffer < HypofriendBaseObject
        end
         # raise invalid params
     end
-
-    def self.index;end
-    def self.update;end
-    def self.delete;end
-
-    protected
-    def HypofriendOffer.create(hypofriend_object)
-        HypofriendOffer.initGetRequest("#{API::NEW_OFFER_PATH}",hypofriend_object)
-    end
-
 end

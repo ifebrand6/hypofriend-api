@@ -10,16 +10,13 @@ A ruby gem allows  to easily integration of Hypofriend's offer API endpointf [Hy
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'hypofriend_api'
+gem 'hypofriend_api', git: 'https://github.com/ifebrand6/hypofriend-api'
+
 ```
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install 
 
 ## Basic Usage
 
@@ -35,7 +32,7 @@ Or install it yourself as:
 		)
 
 ```
-NOTE: This returns a list of available finicial institutions and their burrowing  rate.
+NOTE: This returns a list of available financial institutions and their burrowing  rate.
 
 It throws a `HypofriendSaerverError` when either of the queries  are invalid or connection cannot be establish with the the Hypofriend api server.
 ```'

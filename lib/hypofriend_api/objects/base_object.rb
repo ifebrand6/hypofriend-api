@@ -1,15 +1,12 @@
 
 class BaseObject
     require 'hypofriend_api/modules/api'
-    require 'hypofriend_api/error'
+    require 'hypofriend_api/hypofriend_server_error'
     require 'rest-client'
     require 'json'
     require 'rack'  
     attr_reader :hypofriend_object
     
-    def initialize(hypofriend_object)
-    end
-
     protected
     def self.initGetRequest(url, hypofriend_object)
         query_params = Rack::Utils.build_query(hypofriend_object)
@@ -28,15 +25,6 @@ class BaseObject
         end	  
         return result
         
-    end
-
-    def self.initPostRequest()
-    end
-
-    def self.initPutRequest
-    end
-
-    def self.initDeleteRequest
     end
 
 end
