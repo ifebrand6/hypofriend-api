@@ -1,4 +1,4 @@
-require 'hypofriend_api/objects/base'
+require 'hypofriend_api/objects/hypofriend_base_object'
 
 class HypofriendOffer < HypofriendBaseObject
 

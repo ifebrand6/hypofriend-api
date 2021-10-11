@@ -1,5 +1,5 @@
 
-class BaseObject
+class HypofriendBaseObject
     require 'hypofriend_api/modules/api'
     require 'hypofriend_api/hypofriend_server_error'
     require 'rest-client'
