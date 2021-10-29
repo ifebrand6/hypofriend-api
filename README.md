@@ -1,4 +1,6 @@
 # HypofriendApi
+This is a product specific gem for Hypofriend
+Hypofriend is a licensed German Mortgage broker using technology to help customers find the right mortgage.
 Hypofriend Offers endpoint Consumer
 
 
